@@ -7,8 +7,9 @@
  */
 int main(void)
 /**
- * main
- * Return: void
+ * srand - print random number to variable n
+ *
+ * Return: 0
  */
 {
 	int n;
