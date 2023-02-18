@@ -10,6 +10,8 @@ int main(void)
 {
 	int n;
 
+	n = 98;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
@@ -24,5 +26,5 @@ int main(void)
 	{
 		printf( "%d is negative\n" );
 	}
-	return (n);
+	return (0);
 }
