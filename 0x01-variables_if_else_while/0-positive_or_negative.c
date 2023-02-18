@@ -3,10 +3,13 @@
 #include <stdio.h>
 
 /**
- * It returns the same sequence of random number
-    on every execution of the program.
-    */
+ * main - Random number to variable n
+ */
 int main(void)
+/**
+ * main
+ * Return: void
+ */
 {
 	int n;
 
