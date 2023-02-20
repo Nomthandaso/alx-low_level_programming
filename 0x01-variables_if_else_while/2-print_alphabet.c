@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main
+ * main - Entry point
  *
  * Description: 'putchar the alphabet in lowercase'
  *
@@ -10,9 +10,10 @@ int main(void)
 {
 	int ch;
 	for (ch = 'a' ; ch <= 'z' ; ch++)
+
 		putchar (ch);
 	{
-	        putchar ('\n');
+		putchar ('\n');
 	}
 	return(0);
 }
