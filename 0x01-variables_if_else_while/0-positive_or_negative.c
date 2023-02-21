@@ -1,16 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Random number to variable n
+ * main - Entry point
+ *
+ * Description: assign a random number to variable n
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
-/**
- * srand - print random number to variable n
- *
- * Return: 0
- */
 {
 	int n;
 
