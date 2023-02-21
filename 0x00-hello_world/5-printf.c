@@ -1,6 +1,10 @@
 #include <stdio.h>
 /**
- * printf function
+ * main - Entry point
+ *
+ * Description: print output using printf
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
