@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * void print_alphabet - Entry point
+ * main - Entry point
  *
  * Description: printing the lowercase alphabet using putchar
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+int main(void)
 {
-	char ch;
+	int ch;
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 		putchar (ch);
 	{
