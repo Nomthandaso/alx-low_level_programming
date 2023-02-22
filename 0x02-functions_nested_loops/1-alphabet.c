@@ -1,19 +1,18 @@
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
  * Description: printing the lowercase alphabet using putchar
  *
- * Return: Always 0 (Success)
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-	int ch;
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-		putchar (ch);
+	char c;
+
+	for (c = 'a' ; c <= 'z' ; c++)
 	{
-		putchar ('\n');
+		putchar(c);
 	}
-	return (0);
+		putchar('\n');
 }
