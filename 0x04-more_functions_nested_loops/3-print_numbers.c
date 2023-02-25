@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio>
-#include <stdlib>
 /**
  * print_numbers - Entry point
  *
