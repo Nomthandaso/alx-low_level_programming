@@ -1,3 +1,4 @@
+int _putchar(int i);
 void positive_or_negative(int i);
 int _isupper(int c);
 int _isdigit(int c);
