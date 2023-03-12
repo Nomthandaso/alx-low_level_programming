@@ -1,11 +1,14 @@
 #include "main.h"
-#include<stdio.h>
 /**
- * _puts - Entry point
+ * _puts - prints a string to stdout
  *
- * @str: input value
+ * @str: string to print
  */
 void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	while (*str != '\0')
+	{
+		_putchar (*str++);
+	}
+	_putchar ('\n');
 }
