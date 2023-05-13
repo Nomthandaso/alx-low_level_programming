@@ -39,8 +39,8 @@ int main(int argc, char *argv[])
 		file_to = open(argv[2], O_WRONLY | O_APPEND);
 	} while (rd > 0);
 	free(buffer);
-	close(file_from);
-	close(file_to);
+	_close(file_from);
+	_close(file_to);
 
 	return (0);
 }
