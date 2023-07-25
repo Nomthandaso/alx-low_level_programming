@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * binary_to_unit - converts a binary number to an unsigned int
+ * binary_to_uint - converts a binary number to an unsigned int
  * @b: pointer to a string o 0 and 1 chars
  *
  * Return: con_num, b if NULL, or 0 if b is equals to 0 or 1
